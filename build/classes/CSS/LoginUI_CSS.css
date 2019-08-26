@@ -1,0 +1,31 @@
+.MAIN_FRM{
+    -fx-background-image: url('../Images/background2.jpeg');
+    -fx-background-repeat: stretch;
+    -fx-background-position: center center;
+}
+#CONTAINER{
+    -fx-background-color: #ffffff75;
+    -fx-background-radius: 5px;
+}
+
+.button{
+    -fx-background-color: #2980b9;
+    -fx-background-insets: 0px;
+    -fx-background-radius: 0px 0px 5px 5px;
+    -fx-text-fill: #ffffff;
+}
+
+.button:hover{
+    -fx-background-color: #338ac4;
+}
+
+.button:pressed{
+    -fx-background-color: #2a75a8;
+}
+
+.textfield{
+    -fx-background-insets: 0px;
+    -fx-background-color: #ffffff98;
+    -fx-background-radius: 1px;
+    -fx-text-fill: #000000;
+}

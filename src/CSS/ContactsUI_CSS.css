@@ -1,0 +1,284 @@
+#MAIN_FRM{
+    -fx-background-color: #ffffff;
+}
+
+#MAIN_CONTACTS{
+    -fx-background-color: #ffffff;
+}
+
+#SCROLL_BAR_CONTACTS{
+    -fx-background-insets: 0px;
+}
+
+#SEARCH_TXT, #USERNAME_TXT{
+    -fx-background-insets: 0px;
+    -fx-background-radius: 15px;
+    -fx-prompt-text-fill: #a5a5a5;
+    -fx-text-fill: #000000;
+    -fx-background-color: #f7f7f7;
+}
+
+#PHONENUMBER_TXT{
+    -fx-background-insets: 0px;
+    -fx-background-radius: 15px;
+    -fx-padding: 0px 0px 0px 45px;
+    -fx-prompt-text-fill: #a5a5a5;
+    -fx-text-fill: #000000;
+    -fx-background-color: #f7f7f7;
+}
+
+#SCROLL_BAR{
+    -fx-background-insets: 0px;
+}
+
+#MSGS_CONTAINER{
+    -fx-background-color: #ffffff;
+}
+
+#TITLE_FINAL_CONTAINER{
+    -fx-background-color: #ffffff;
+}
+
+#CONTACT{
+    -fx-border-color: #3498db;
+    -fx-border-width: 0px 0px 0px 3px;
+    -fx-padding: 0px 0px 0px 9px;
+}
+#CONTACT:focused{
+    -fx-background-color: #f6f6f6;
+}
+#CONTACT:hover{
+    -fx-background-color: #f6f6f6;
+}
+
+#TITLE_BAR{
+    -fx-padding: 10px;
+}
+
+#CONTACT_NAME{
+    -fx-text-fill: #000000;
+    -fx-font-size: 15px;
+    -fx-padding: 0px 0px 3px 10px;
+}
+
+#PHONENUMBER{
+    -fx-padding: 0px 0px 0px 10px;
+    -fx-text-fill: #343434;
+    -fx-font-size: 11px;
+}
+
+#TIME{
+    -fx-padding: 5px 10px 5px 5px;
+    -fx-text-fill: #000000;
+}
+
+#H_OPTIONS_BTN{
+    -fx-background-color: transparent;
+    -fx-background-radius: 0px;
+    -fx-background-radius: 6px
+}
+
+#H_OPTIONS_BTN:hover{
+    -fx-background-color: #ffffff10;
+}
+
+#ADD_NEW_BTN{
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 20px;
+}
+
+#ADD_NEW_BTN:pressed{
+    -fx-background-color: #f4f4f4;
+}
+
+
+#ADDUSER_PANE{
+    -fx-background-radius: 15px;
+    -fx-background-color: #ffffff;
+    -fx-border-width: 1px;
+    -fx-border-radius: 15px;
+}
+
+#ADDUSER_BTN{
+    -fx-background-radius: 0px 0px 15px 15px;
+    -fx-text-fill: #3498db;
+    -fx-background-insets: 0px;
+    -fx-background-color: #ffffff;
+}
+
+#ADDUSER_BTN:hover{
+    -fx-background-color: #f9f9f9;
+}
+
+#ADDUSER_BTN:pressed {
+    -fx-background-color: #f4f4f4;
+}
+
+#MSG_TXT {
+    -fx-background-insets: 0px;
+    -fx-text-fill: #000000;
+    -fx-prompt-text-fill: #a5a5a5;
+}
+
+#MSG_TXT .content{
+    -fx-background-color: #f9f9f9;
+}
+
+#SEND_BTN, #FILES_BTN, #EMOJI_BTN{
+    -fx-background-insets: 0px;
+    -fx-background-color: #ffffff;
+}
+
+#SEND_BTN:hover, #FILES_BTN:hover, #EMOJI_BTN:hover{
+    -fx-background-color: #f9f9f9;
+}
+
+#SEND_BTN:pressed, #FILES_BTN:pressed, #EMOJI_BTN:pressed {
+    -fx-background-color: #f4f4f4;
+}
+
+#MORE_BTNS{
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 15px;
+}
+
+#CLOSE_ADD_BTN{
+    -fx-background-radius: 0px 15px 0px 0px;
+    -fx-background-insets: 0px;
+    -fx-background-color: #ffffff;
+}
+#CLOSE_ADD_BTN:hover{
+    -fx-background-color: #f9f9f9;
+}
+
+#CLOSE_ADD_BTN:pressed {
+    -fx-background-color: #f4f4f4;
+}
+
+/* Context Menu Style */
+/****************************************/
+
+
+.context-menu {
+    -fx-background-radius: 4px;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.2) , 5, 0.0 , 0 , 1 );
+    -fx-padding: 8px 0px 8px 0px;
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #000000;
+}
+
+
+.menu-item .label {
+    -fx-fill: #000000;
+    -fx-font-size: 13px;;
+}
+
+.menu-item:focused .label {
+    -fx-text-fill: #000000;
+}
+.menu-item{
+    -fx-background-color: #ffffff;
+    -fx-padding: 10px 30px 10px 15px;
+}
+.menu-item:focused {
+    -fx-background: -fx-accent;
+    -fx-background-color: #efefef;
+    -fx-text-fill: -fx-selection-bar-text;
+}
+
+
+/* SENDER MSG STYLE */
+/****************************************/
+
+#MAIN_MSG{
+    -fx-padding: 5px;
+}
+
+#MSG_LAYOUT{
+    -fx-padding: 5px;
+    -fx-background-color: #3498db;
+    -fx-background-radius: 10px;
+    /*
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.2) , 5, 0.0 , 0 , 1 );
+    */
+}
+
+#TOP_BAR_MSG{
+    -fx-padding: 3px 3px 3px 6px;
+    -fx-spacing: 5;
+}
+
+#SENDER_NAME_LBL{
+    -fx-text-fill: #ededed;
+}
+
+
+#BOTTOM_BAR_MSG{
+    -fx-padding: 3px 3px 3px 6px;
+}
+
+#TIME_SENT{
+    -fx-text-fill: #ededed;
+}
+
+#MSG_LBL{
+    -fx-padding: 5px;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 14px;
+}
+
+/* RECEIVER MSG STYLE */
+/****************************************/
+
+#MAIN_MSG2{
+    -fx-padding: 5px;
+}
+
+#MSG_LAYOUT2{
+    -fx-padding: 5px;
+    -fx-background-color: #e9e9e9;
+    -fx-background-radius: 10px;
+    /*
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.2) , 5, 0.0 , 0 , 1 );
+    */
+}
+
+#TOP_BAR_MSG2{
+    -fx-padding: 3px 3px 3px 6px;
+    -fx-spacing: 5;
+}
+
+#CLIENT_NAME_LBL{
+    -fx-text-fill: #707070;
+}
+
+#BOTTOM_BAR_MSG2{
+    -fx-padding: 3px 3px 3px 6px;
+}
+
+#TIME_SENT2{
+    -fx-text-fill: #707070;
+}
+
+#MSG_LBL2{
+    -fx-padding: 5px;
+    -fx-text-fill: #474747;
+}
+
+/* Other Components */
+/****************************************/
+
+#OPTIONS_BTN, #OPTIONS_BTN2{
+    -fx-background-radius: 0px;
+    -fx-background-color: transparent;
+    -fx-background-radius: 5px;
+}
+
+#OPTIONS_BTN:hover, #OPTIONS_BTN:hover{
+    -fx-background-color: #f3f3f350;
+}
+
+#OPTIONS_BTN:pressed, #OPTIONS_BTN:pressed{
+    -fx-background-color: #e7e7e770;
+}
+
